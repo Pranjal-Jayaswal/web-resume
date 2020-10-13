@@ -1,0 +1,295 @@
+
+body{
+	margin:0vh;
+}
+header{
+	height:65vh;
+	background-image:url(web_data/backgr.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	background-attachment:fixed;
+	opacity:0.94;
+}
+
+header h1{
+	padding-top:2rem;
+	text-align:center;
+	color:white;
+	font-size:4rem;
+	margin-bottom:1vh;
+	}
+
+.horiList{
+	margin:0vh;
+	list-style:none;
+	text-align:center;
+}
+.horiList li{
+	display:inline-block;
+	padding: 2vh 3vh;
+}
+.horiList li a{
+	color:white;
+	text-decoration:none;
+	transition: color 0.5s, border-bottom 4s;
+}
+.horiList li a:hover{
+	color:lightgrey;
+	border-bottom:1px solid white;
+}
+.horiImg{
+	margin:0vh;
+	padding:0vh;
+	list-style:none;
+	text-align:center;
+}
+.horiImg li {
+	display:inline-block;
+	padding: 0vh 2vh;
+}
+.horiImg li a {
+	font-size:30px;
+	text-decoration:none;
+	border-radius:0%;
+}
+
+.horiImg li a:hover{
+	box-shadow:0px -2px 6px 6px rgba(230,196,196,0.3);
+}
+#about {
+	height:auto;
+}
+#about div{
+	margin-top:2rem;
+	text-align:center;
+}
+#about div img{
+	border-radius:50%;
+	box-shadow:0px 0px 4px 4px lightgrey;
+}
+
+#about p{
+	    padding: 3% 15%;
+}
+
+#skills{
+	background-color:lightgrey;
+}
+ #tr{
+	text-align:center;
+	padding:1rem;
+	margin:0px;
+}
+ #kk{
+	font-size:3rem;
+	margin:0px;
+	text-shadow: -2px 2px black;
+}
+#jk{
+	margin:0px;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+}
+#jk>div{
+	width:10rem;
+	border-radius: 0.8rem;
+	background-color:white;
+	box-shadow:0px 0px 4px 4px darkgrey;
+	margin:2.7rem;
+}
+#jk>div>div{
+	height:2.5rem;
+	border-radius: 0.8rem;
+}
+#java{
+	background-color:brown;
+	width:70%;
+}
+#html{
+	background-color:lightblue;
+	width:70%;
+}
+ #javascript{
+	background-color:peru;
+	width:60%;
+}
+ #flutter{
+	background-color:burlywood;
+	width:80%;
+}
+ #nodejs{
+	background-color:darkgoldenrod;
+	width:70%;
+}
+ #mongodb{
+	background-color:darkseagreen;
+	width:70%;
+}
+ #jquery{
+	background-color:lightgreen;
+	width:70%;
+}
+ #git{
+	background-color:cyan;
+	width:70%;
+}
+ #css{
+	background-color:teal;
+	width:80%;
+}
+ #mysql{
+	background-color:darkorange;
+	width:70%;
+}
+
+.skillt #jk>div>div span{
+	font-size:inherit;
+	text-shadow: -0.5px 0.5px #b69b9b;
+	margin:3vh;
+	vertical-align: -webkit-baseline-middle;
+}
+#skills{
+	margin:1rem;
+}
+#contact{
+	margin:1rem 1rem;
+	background-image:linear-gradient(45deg,#020265,#6d3f8c);
+}
+#contactbig{
+	display:flex;
+	justify-content:space-around;
+	margin:0rem 5rem;
+}
+.bnm{
+	padding:1rem;
+	margin:1rem;
+	background-image:linear-gradient(45deg,#020265,#6d3f8c);
+}
+input {
+	background-color: inherit;
+	border-color: inherit;
+	border-width:0px;
+	margin:2rem;
+	border-bottom:1px solid grey ;
+	width:96%;
+	margin-left: 0rem;
+}
+#submitt{
+	color:white;
+	width:10rem;
+	height:3rem;
+	border-left:1px solid grey ;
+	border-right:1px solid grey ;
+	border-top:1px solid grey ;
+	margin-bottom:3rem;
+	text-shadow: 2px 2px #000000;
+	font: 400 13.3333px sans-serif;
+}
+#mine{
+	width:40rem;
+}
+#mine h3{
+	color:lightgrey;
+}
+#yu{
+	color:black;
+	text-align: right;
+}
+}
+#yu a:link{color:black;
+	
+}
+#yu a:visited{color:black;
+	
+}
+#projectbig{
+	display:flex;
+	justify-content:space-around;
+	flex-wrap:wrap;
+	margin:2rem;
+}
+#kmp{
+	height:6rem;
+	width:12rem;
+	margin:1rem 5rem;
+}
+#poi{
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+}
+#experiencebig{
+	position:relative;
+	width:66%;
+	height:100%;
+	display:flex;
+	flex-direction:column;
+}
+#air{
+	position:sticky;
+	top:40%;
+	transform: rotate(90deg);
+	z-index:2;
+}
+#expnote:nth-child(2n+1){
+	position:relative;
+	width:33%;
+	background-color:lightgrey;
+	margin-left:16%;
+    min-height:150px;	
+    overflow-wrap:break-word;
+}
+#expnote:nth-child(2n){
+	left:41%;
+	position:relative;
+	width:33%;
+	background-color:lightgrey;
+	margin-left:16%;
+    min-height:150px;	
+    overflow-wrap:break-word;
+}
+#expnote:nth-child(2n)::after{
+	content:'';
+	position:absolute;
+	top:50%;
+	border-radius:50%;
+	background-color:green;
+	z-index:1;
+	height:0.7rem;
+	width:0.7rem;
+	left:-15%;
+}
+#expnote:nth-child(2n+1)::after{
+	content:'';
+	position:absolute;
+	top:50%;
+	border-radius:50%;
+	background-color:green;
+	z-index:1;
+	height:0.7rem;
+	width:0.7rem;
+	right:-13%;
+}
+
+#divider{
+	position:absolute;
+	height:65%;
+	left:52.5%;
+	top: 14%;
+	width:0;
+	margin-top: 3%;
+	border:3px dashed black;
+	border-left-width: 0
+}
+#tyui{
+	display:flex;
+	justify-content:center;
+}
+#gh{
+	display:inline-block;
+}
+#asd{
+	padding:0rem 2rem 1rem 2rem;
+}
